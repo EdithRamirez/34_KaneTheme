@@ -1,0 +1,19 @@
+/*tipo de fuente*/
+*{
+	font-family: 'Roboto';
+	color: #000;
+}
+/*color menu*/
+.bg-verde{
+	background-color: #26AD60;
+}
+.navbar{
+	border-radius: 0;
+}
+.nav li a{
+	color: #fff;
+}
+/*fondo azul*/
+.bg-azul{
+	background-color: #2D3E50;
+}
