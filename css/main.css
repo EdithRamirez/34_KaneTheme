@@ -22,6 +22,10 @@ body{
 .texto-negro{
 	color: #000;
 }
+/*color texto gris*/
+a.fa, .texto-gris{
+	color: #515151;
+}
 /*imagen de fondo texto principal*/
 .carousel-bg{
 	background-image: url("../img/carousel-bg.jpg");
@@ -29,10 +33,13 @@ body{
 	background-size: cover;
 	background-position: 100%;
 }
+/*encabezzados*/
+h1, h2, h3, h4, h5{
+	font-weight: normal;
+}
 /*texto principal*/
 h1{
 	font-size: 4em;
-	font-weight: normal;
 	letter-spacing: 2px;
 }
 .text-1{
@@ -42,7 +49,6 @@ h1{
 h2{
 	font-size: 3.5em;
 	word-spacing: 10px;
-	font-weight: normal;
 }
 /*estilo de linea*/
 hr.linea-negra{
@@ -53,7 +59,10 @@ hr.linea-negra{
 	border-color: #fff;
 	width: 15%;
 }
-
+.linea-puntos{
+	border-style: dashed;
+	border-color: #D2D2D2;
+}
 a>h2{
 	color: #fff;
 }
@@ -69,35 +78,48 @@ a:hover{
 	background-image: url("../img/img-divider-img.jpg");
 	background-size: 100%;
 	background-position: top;
-/*	padding: 80px 0px 160px;
-*/}
-
-/*padding y margin*/
-.pd-2-10{
-	padding: 2% 10%;
-}
-.pd-5{
-	padding: 5%;
-}
-.pd-10{
-	padding: 10%;
-}
-.pd-18{
-	padding: 0 18%;
-}
-.mgt-2{
-	margin-top: 2%;
-}
-.mgt-5{
-	margin-top: 5%;
-}
-.pdtb-10{
-	padding: 0 10%;
+	width: 100%;
+	height: 250px;
 }
 /*barras de progreso*/
-
 .barras{
 	height: 10px;
 	border-radius: 0;
 	margin-bottom: 1%;
+}
+.position, .btn-gris{
+	background-color: #433E42;
+	border: none;
+}
+/*tabla de precios*/
+table{
+	border: 1px solid #26AD60;
+}
+.tcafe{
+	background-color: #8F5F37;/*color cafe*/ 
+}
+.tblanca{
+	background-color: #FFF;
+}
+thead>tr>th{
+	border-bottom: 0 !important;
+}
+th{
+	font-size: 1.5em;
+}
+td>strong{
+	font-size: 2.5em;
+}
+.tverde{
+	background-color: #26AD60 !important;
+}
+/*clientes*/
+blockquote{
+	border-left: 0;
+}
+.text-naranja{
+	color: #BE7738;
+}
+.icon{
+	border: 0;
 }

@@ -1,0 +1,62 @@
+@media (max-width: 767px) {
+	.caja-color{
+		height: 50px;
+		width: 100%;
+		text-align: center;
+	}
+	/*espacio del boton de precios*/
+	.espacio{
+		padding: 5% !important;
+	}
+	/*input de footer*/
+	.icon{
+		width: 90%;
+		padding-left: 2%; 	
+	}
+	/*posicion de icon input*/
+	.position{
+		padding: 3%;
+		position: absolute;
+		left: 0%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.caja-color{
+		height: 100px;
+		width: 20%;
+		text-align: center;
+	}
+	/*espacio del boton de precios*/
+	.espacio{
+		padding: 10% !important;
+	}
+	/*input de footer*/
+	.icon{
+		width: 80%;
+		padding-left: 2%;
+	}
+	/*posicion de icon input*/
+	.position{
+		padding: 2%;
+		position: absolute;
+		left: 7%;
+	}
+}
+@media (min-width: 1200px) {
+	/*espacio del boton de precios*/
+	.espacio{
+		padding: 15% !important;
+	}
+	/*input de footer*/
+	.icon{
+		width: 60%;
+		padding-left: 2%;
+	}
+	/*posicion de icon input*/
+	.position{
+		padding: 1.2%;
+		position: absolute;
+		left: 17%;
+
+	}
+}
