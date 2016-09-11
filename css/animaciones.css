@@ -1,0 +1,11 @@
+/*animacion de imagen seccion about*/
+.fotos {
+	position: relative;  
+}
+.fotos img {
+	position: absolute;
+	transition: opacity 1.5s ease-in-out;
+}
+.fotos img.efecto:hover{
+	opacity: 0;
+}
