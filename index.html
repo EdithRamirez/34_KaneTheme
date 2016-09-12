@@ -17,9 +17,9 @@
 	</head>
 	<body><!-- Escribe tu código HTML aquí -->
 		<header><!--inicio de encabezado-->
-			<div class="container"><!--inicio de contenedor navegador-->	
+			<div class="container-fluid"><!--inicio de contenedor navegador-->	
 			<!--donde se coloca los colores del menu-->
-				<nav class="navbar bg-verde" role="navegation"><!--inicio de menu-->
+				<nav class="navbar bg-verde navbar-fixed-top" role="navegation"><!--inicio de menu-->
 					<div class="container-fluid">
 						<div class="navbar-header"><!--menu responsivo-->
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-responsivo" aria-expanded="false">
@@ -29,7 +29,7 @@
 							<a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a><!--logo menu-->
 						</div><!--menu responsivo-->
 						<div class="collapse navbar-collapse" id="menu-responsivo">
-							<ul class="nav navbar-nav navbar-right">
+							<ul class="nav navbar-nav navbar-right pd-1">
 								<li><a href="#about">About</a></li>
 								<li><a href="#service">Service</a></li>
 								<li><a href="#team">Team</a></li>
@@ -43,7 +43,7 @@
 				</nav><!--fin de menu-->
 			</div>
 		</header><!--fin de encabezado-->
-		<div class="container"><!--inicio de contenedor principal-->	
+		<div class="container-fluid"><!--inicio de contenedor principal-->	
 			<section class="carousel-bg pd-5">
 				<div class="row"><!--inicio de texto principal-->
 					<div class="col-xs-12 col-sm-12 col-lg-12 text-center">
@@ -52,100 +52,98 @@
 					</div>
 				</div><!--fin de texto principal-->
 			</section>
-			<section><!--inicio seccion de paleta de colores-->
+			<section class="pd-5"><!--inicio seccion de paleta de colores-->
 				<div class="row mgt-2"><!--inicio titulo-->
 					<div class="col-xs-12 col-sm-12 col-lg-12">
 						<h2 class="texto-negro text-center">PICK YOUR COLOR PALETTE</h2>
 						<hr class="linea-negra"><!--linea-->
 					</div>
 				</div><!--fin titulo-->
-				<div class="container"><!--contiene colores-->
-					<div class="row"><!--inicio fila uno de colores-->
-						<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color1">
-							<p>#69D2E7</p>
-						</div>
-						<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color2">
-							<p>#A7DBDB</p>
-						</div>
-						<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color3">
-							<p>#E0E4CC</p>
-						</div>
-						<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color4">
-							<p>#F38630</p>
-						</div>
-						<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color5">
-							<p>#FA6900</p>
-						</div>
-					</div><!--fin fila uno de colores-->
-					<div class="row mgt-2"><!--inicio fila dos de colores-->
-						<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color6">
-							<p>#E94C6F</p>
-						</div>
-						<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color7">
-							<p>#542733</p>
-						</div>
-						<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color8">
-							<p>#5A6A62</p>
-						</div>
-						<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color9">
-							<p>#C6D5CD</p>
-						</div>
-						<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color10">
-							<p>#FDF200</p>
-						</div>
-					</div><!--fin fila dos de colores-->
-					<div class="row mgt-2"><!--inicio fila tres de colores-->
-						<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color11">
-							<p>#DB3340</p>
-						</div>
-						<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color12">
-							<p>#E8B71A</p>
-						</div>
-						<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color13">
-							<p>#F7EAC8</p>
-						</div>
-						<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color14">
-							<p>#1FDA9A</p>
-						</div>
-						<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color15">
-							<p>#26ABE3</p>
-						</div>
-					</div><!--fin fila tres de colores-->
-					<div class="row mgt-2"><!--inicio fila cuatro de colores-->
-						<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color16">
-							<p>#588C73</p>
-						</div>
-						<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color17">
-							<p>#F2E394</p>
-						</div>
-						<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color18">
-							<p>#F2AE72</p>
-						</div>
-						<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color19">
-							<p>#D96459</p>
-						</div>
-						<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color20">
-							<p>#8C4646</p>
-						</div>
-					</div><!--fin fila cuatro de colores-->
-					<div class="row mgt-2"><!--inicio fila cinco de colores-->
-						<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color21">
-							<p>#D0C91F</p>
-						</div>
-						<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color22">
-							<p>#85C4B9</p>
-						</div>
-						<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color23">
-							<p>#008BBA</p>
-						</div>
-						<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color24">
-							<p>#DF514C</p>
-						</div>
-						<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color25">
-							<p>#DC403B</p>
-						</div>
-					</div><!--fin fila cinco de colores-->
-				</div><!--contiene colores-->
+				<div class="row"><!--inicio fila uno de colores-->
+					<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color1">
+						<p>#69D2E7</p>
+					</div>
+					<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color2">
+						<p>#A7DBDB</p>
+					</div>
+					<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color3">
+						<p>#E0E4CC</p>
+					</div>
+					<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color4">
+						<p>#F38630</p>
+					</div>
+					<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color5">
+						<p>#FA6900</p>
+					</div>
+				</div><!--fin fila uno de colores-->
+				<div class="row mgt-2"><!--inicio fila dos de colores-->
+					<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color6">
+						<p>#E94C6F</p>
+					</div>
+					<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color7">
+						<p>#542733</p>
+					</div>
+					<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color8">
+						<p>#5A6A62</p>
+					</div>
+					<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color9">
+						<p>#C6D5CD</p>
+					</div>
+					<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color10">
+						<p>#FDF200</p>
+					</div>
+				</div><!--fin fila dos de colores-->
+				<div class="row mgt-2"><!--inicio fila tres de colores-->
+					<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color11">
+						<p>#DB3340</p>
+					</div>
+					<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color12">
+						<p>#E8B71A</p>
+					</div>
+					<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color13">
+						<p>#F7EAC8</p>
+					</div>
+					<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color14">
+						<p>#1FDA9A</p>
+					</div>
+					<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color15">
+						<p>#26ABE3</p>
+					</div>
+				</div><!--fin fila tres de colores-->
+				<div class="row mgt-2"><!--inicio fila cuatro de colores-->
+					<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color16">
+						<p>#588C73</p>
+					</div>
+					<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color17">
+						<p>#F2E394</p>
+					</div>
+					<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color18">
+						<p>#F2AE72</p>
+					</div>
+					<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color19">
+						<p>#D96459</p>
+					</div>
+					<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color20">
+						<p>#8C4646</p>
+					</div>
+				</div><!--fin fila cuatro de colores-->
+				<div class="row mgt-2"><!--inicio fila cinco de colores-->
+					<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color21">
+						<p>#D0C91F</p>
+					</div>
+					<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color22">
+						<p>#85C4B9</p>
+					</div>
+					<div class="col-xs-12 col-sm-2 col-lg-2 caja-color" id="color23">
+						<p>#008BBA</p>
+					</div>
+					<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color24">
+						<p>#DF514C</p>
+					</div>
+					<div class="col-xs-12 col-sm-3 col-lg-3 caja-color" id="color25">
+						<p>#DC403B</p>
+					</div>
+				</div><!--fin fila cinco de colores-->
 			</section><!--fin seccion de paleta de colores-->
 			<section class="bg-azul pd-5"><!--inicio seccion de about us-->
 				<div class="row"><!--inicio titulo-->
@@ -155,7 +153,7 @@
 					</div>
 				</div><!--fin titulo-->
 				<div class="row"><!--inicio de texto, imagen y barras de progreso-->
-					<div class="col-xs-12 col-sm-6 col-lg-6 pd-5">
+					<div class="col-xs-12 col-sm-12 col-lg-6 pd-5">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo eaque modi inventore voluptates dolorum alias corporis ut, dolores voluptatum amet beatae adipisci perspiciatis! Soluta reiciendis quae veniam, magni similique perferendis.</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo eaque modi inventore voluptates dolorum alias corporis ut, dolores voluptatum amet beatae adipisci perspiciatis! Soluta reiciendis quae veniam, magni similique perferendis.</p>
 						<!--agregar aqui las barras de progreso-->
@@ -435,14 +433,13 @@
 					</div>
 				</div><!--fin formulario-->
 			</section><!--fin seccion de contacto-->
-			<footer class="pd-5 bg-verde"><!--inicio pie de pagina-->
-				<div class="row"><!--inicio de redes sociales-->
-					<div class="col-xs-12 col-sm-12 col-lg-12">
+			<footer class="bg-verde"><!--inicio pie de pagina-->
+				<div class="row bg-redes mg-0 pd-5"><!--inicio de redes sociales-->
+					<div class="col-xs-12 col-sm-12 col-lg-12 pd-5">
 						<ul class="list-inline text-center">
 							<li><a href="#" target="_blank" class="fa fa-facebook-square fa-5x"></a></li><!--facebook-->
 							<li><a href="#" target="_blank" class="fa fa-twitter-square fa-5x"></a></li><!--twitter-->
 							<li><a href="#" target="_blank" class="fa fa-linkedin-square fa-5x"></a></li><!--linkedin-->
-							<li><a href="#" target="_blank" class="fa fa-pinterest-square fa-5x"></a></li><!--pinterest-->
 							<li><a href="#" target="_blank" class="fa fa-pinterest-square fa-5x"></a></li><!--pinterest-->
 							<li><a href="#" target="_blank" class="fa fa-google-plus-square fa-5x"></a></li><!--google plus-->
 							<li><a href="#" target="_blank" class="fa fa-tumblr-square fa-5x"></a></li><!--tumblr-->
@@ -450,45 +447,47 @@
 						</ul>
 					</div>
 				</div><!--fin de redes sociales-->
-				<div class="row"><!--inicio de visit, write y newsletter-->
-					<div class="col-xs-4 col-sm-4 col-lg-4">
-						<h5 class="text-center">Visit Us</h5>
-						<hr class="linea-blanca"><!--linea-->
-						<ul class="list-unstyled text-center">
-							<li><span class="fa fa-location-arrow" aria-hidden="true"></span> 10 Lorem Ipsum Street</li>
-							<li><span class="fa fa-map-marker" aria-hidden="true"></span> 68123 Mannheim</li>
-							<li><span class="fa fa-flag" aria-hidden="true"></span> Germany</li>
-						</ul>
-					</div>
-					<div class="col-xs-4 col-sm-4 col-lg-4">
-						<h5 class="text-center">Write Us</h5>
-						<hr class="linea-blanca"><!--linea-->
-						<ul class="list-unstyled text-center">
-							<li><span class="fa fa-phone" aria-hidden="true"></span> +49 621 123 321 123</li>
-							<li><span class="fa fa-envelope" aria-hidden="true"></span> info@fabianbentz.de</li>
-							<li><span class="fa fa-fax" aria-hidden="true"></span> +49 621 123 321 124</li>
-						</ul>
-					</div>
-					<div class="col-xs-4 col-sm-4 col-lg-4">
-						<h5 class="text-center">Newsletter</h5>
-						<hr class="linea-blanca"><!--linea-->
-						<form action="#" class="text-center">
-							<div class="form-group">
-								<input type="email" class="icon" placeholder="Enter email">
-								<span class="fa fa-envelope text-naranja position"></span>
-							</div>
-							<button type="submit" class="btn btn-gris">Suscribe Now!</button>
-						</form>
-					</div>
-				</div><!--fin de visit, write y newsletter-->
-				<div class="row mgt-5"><!--inicio de derechos, terminos y privacidad; back top-->
-					<div class="col-xs-10 col-sm-10 col-lg-10">
-						<p>&copy;2013 ThreeSixty Website Template <a href="#" class="text-naranja">Privace</a> <a href="#" class="text-naranja">Terms</a></p>
-					</div>
-					<div class="col-xs-2 col-sm-2 col-lg-2">
-						<p><a href="#">Back to top</a></p>
-					</div>
-				</div><!--fin de derechos, terminos y privacidad; back top-->
+				<div class="container"><!--inicio contenedor de footer principal-->
+					<div class="row mgt-5"><!--inicio de visit, write y newsletter-->
+						<div class="col-xs-4 col-sm-4 col-lg-4">
+							<h5 class="text-center">Visit Us</h5>
+							<hr class="linea-blanca"><!--linea-->
+							<ul class="list-unstyled text-center">
+								<li><span class="fa fa-location-arrow" aria-hidden="true"></span> 10 Lorem Ipsum Street</li>
+								<li><span class="fa fa-map-marker" aria-hidden="true"></span> 68123 Mannheim</li>
+								<li><span class="fa fa-flag" aria-hidden="true"></span> Germany</li>
+							</ul>
+						</div>
+						<div class="col-xs-4 col-sm-4 col-lg-4">
+							<h5 class="text-center">Write Us</h5>
+							<hr class="linea-blanca"><!--linea-->
+							<ul class="list-unstyled text-center">
+								<li><span class="fa fa-phone" aria-hidden="true"></span> +49 621 123 321 123</li>
+								<li><span class="fa fa-envelope" aria-hidden="true"></span> info@fabianbentz.de</li>
+								<li><span class="fa fa-fax" aria-hidden="true"></span> +49 621 123 321 124</li>
+							</ul>
+						</div>
+						<div class="col-xs-4 col-sm-4 col-lg-4">
+							<h5 class="text-center">Newsletter</h5>
+							<hr class="linea-blanca"><!--linea-->
+							<form action="#" class="text-center">
+								<div class="form-group">
+									<input type="email" class="icon" placeholder="Enter email">
+									<span class="fa fa-envelope text-naranja position"></span>
+								</div>
+								<button type="submit" class="btn btn-gris">Suscribe Now!</button>
+							</form>
+						</div>
+					</div><!--fin de visit, write y newsletter-->
+					<div class="row mgt-5"><!--inicio de derechos, terminos y privacidad; back top-->
+						<div class="col-xs-10 col-sm-10 col-lg-10">
+							<p>&copy;2013 ThreeSixty Website Template <a href="#" class="text-naranja">Privace</a> <a href="#" class="text-naranja">Terms</a></p>
+						</div>
+						<div class="col-xs-2 col-sm-2 col-lg-2">
+							<p><a href="#">Back to top</a></p>
+						</div>
+					</div><!--fin de derechos, terminos y privacidad; back top-->
+				</div><!--fin contenedor de footer principal-->
 			</footer><!--fin pie de pagina-->	
 		</div><!--fin de contenedor principal-->
 		<!-- BOOTSTRAP JAVASCRIPT -->

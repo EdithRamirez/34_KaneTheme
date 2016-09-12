@@ -2,8 +2,14 @@
 .pd-2-10{
 	padding: 2% 10%;
 }
+.pd-1{
+	padding: 1%;
+}
 .pd-5{
 	padding: 5%;
+}
+.pdt-5{
+	padding-top: 5%;
 }
 .pdt-10{
 	padding-top: 10%;
@@ -26,4 +32,6 @@
 .pdb-10{
 	padding-bottom: 10%;
 }
- 
+.mg-0{
+	margin: 0;
+}

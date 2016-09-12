@@ -5,7 +5,7 @@
 	font-size: 1em;
 }
 body{
-/*	padding-top: 5%;*/
+	padding-top: 5%;
 }
 /*color menu*/
 .bg-verde{
@@ -15,15 +15,16 @@ body{
 .navbar{
 	border-radius: 0;
 }
-.nav li a{
-	color: #fff;
-}
 /*color texto negro*/
 .texto-negro{
 	color: #000;
 }
+/*texto blanco*/
+a, .fa{
+	color: #fff;
+}
 /*color texto gris*/
-a.fa, .texto-gris{
+.texto-gris{
 	color: #515151;
 }
 /*imagen de fondo texto principal*/
@@ -63,11 +64,9 @@ hr.linea-negra{
 	border-style: dashed;
 	border-color: #D2D2D2;
 }
-a>h2{
-	color: #fff;
-}
 a:hover{
 	text-decoration: none;
+	color: #191A3D;
 }
 /*fondo azul*/
 .bg-azul{
@@ -79,7 +78,6 @@ a:hover{
 	background-size: 100%;
 	background-position: top;
 	width: 100%;
-	height: 250px;
 }
 /*barras de progreso*/
 .barras{
