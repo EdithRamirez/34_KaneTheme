@@ -81,7 +81,13 @@
 		padding: 1.2%;
 		position: absolute;
 		left: 17%;
-
+	}
+	/*tabla de precios con efecto*/
+	table:hover{
+		border: 1px solid #8F5F37;
+		cursor: pointer;
+		margin-top: 15%;
 	}
 }
 /*Cuales son los brakpoints que se utilizan para bootstrap y cuales estilos deben de estar*/
+/*cuando son media queries se pueden utilizar id*/
