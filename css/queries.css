@@ -88,23 +88,6 @@
 		cursor: pointer;
 		margin-top: 15%;
 	}
-	/*animacion de imagen seccion about*/
-	.fotos{
-		max-width: 100%;
-		background-size: 100%;
-		height: 438px;
-		animation-name: anifoto; /*nombre animacion*/
-		animation-duration: 8s;	/*duracion de animacion*/
-		animation-iteration-count: infinite; /*cuantas veces se repetira*/
-	}
-	@keyframes anifoto {
-		0% {
-			background-image: url("../img/agency-img3.jpg");/*las imagenes cambiaran*/
-		}
-		100% { 
-			background-image: url("../img/agency-img2.jpg");/*las imagenes cambiaran*/
-		}
-	}
 	/*animacion de rotar en what we do*/
 	.rotar {
 		transition: 2.5s ease;

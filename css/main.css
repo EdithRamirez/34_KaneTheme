@@ -120,9 +120,25 @@ blockquote{
 .text-naranja{
 	color: #BE7738;
 }
+/*input de footer*/
 .icon{
 	border: 0;
 }
-div{
-	border: 1px solid pink;
+/*posible animacion a utilizar checar el alto que fue donde no quedo*/
+/*animacion de imagen seccion about*/
+/*.fotos{
+	max-width: 100%;
+	background-size: 100%;
+	height: 438px;
+	animation-name: anifoto; /*nombre animacion
+	animation-duration: 8s;	/*duracion de animacion
+	animation-iteration-count: infinite; /*cuantas veces se repetira
 }
+@keyframes anifoto {
+	0% {
+		background-image: url("../img/agency-img3.jpg");
+	}
+	100% { 
+		background-image: url("../img/agency-img2.jpg");
+	}
+}*/
