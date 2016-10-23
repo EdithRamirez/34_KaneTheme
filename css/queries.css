@@ -13,11 +13,14 @@
 		width: 90%;
 		padding-left: 2%; 	
 	}
+	input.icon{
+		padding: 2% 8%;
+	}
 	/*posicion de icon input*/
 	.position{
 		padding: 3%;
 		position: absolute;
-		left: 0%;
+		left: 5%;
 	}
 	h1{
 		font-size: 2em;

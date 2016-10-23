@@ -24,7 +24,7 @@ a, .fa{
 	color: #fff;
 }
 /*color texto gris*/
-.texto-gris{
+input, .texto-gris{
 	color: #515151;
 }
 /*imagen de fondo texto principal*/
@@ -52,7 +52,7 @@ h2{
 	word-spacing: 10px;
 }
 /*estilo de linea*/
-.linea-negra{
+hr.linea-negra{
 	border-color: #000;
 	width: 15%;
 }
@@ -124,6 +124,7 @@ blockquote{
 .icon{
 	border: 0;
 }
+
 /*posible animacion a utilizar checar el alto que fue donde no quedo*/
 /*animacion de imagen seccion about*/
 /*.fotos{
