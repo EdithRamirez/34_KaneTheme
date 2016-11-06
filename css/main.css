@@ -40,8 +40,8 @@ h1, h2, h3, h4, h5{
 }
 /*texto principal*/
 h1{
-	font-size: 4em;
-	letter-spacing: 2px;
+	font-size: 3em;
+	letter-spacing: 1px;
 }
 .text-1{
 	font-size: 1.5em;

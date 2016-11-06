@@ -57,11 +57,11 @@
 		left: 7%;
 	}
 	h1{
-		font-size: 3em;
+		font-size: 4em;
 		letter-spacing: 2px;
 	}
 	.text-1{
-		font-size: 1em;
+		font-size: 2em;
 	}
 	/*texto de subtitulos*/
 	h2{
@@ -104,6 +104,10 @@
 		transform : rotate(50deg);
 		padding: 5%;
 		background-color: #AA692E;
+	}
+	h1{
+		font-size: 4em;
+		letter-spacing: 2px;
 	}
 }
 /*Cuales son los brakpoints que se utilizan para bootstrap y cuales estilos deben de estar*/
