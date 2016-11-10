@@ -69,7 +69,7 @@
 		word-spacing: 10px;
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
 	/*espacio del boton de precios*/
 	.espacio{
 		padding: 15% !important;
