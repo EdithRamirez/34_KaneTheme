@@ -19,6 +19,11 @@ body{
 .texto-negro{
 	color: #000;
 }
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: #fff;
+	border-radius: 20px;
+	color: #000;
+}
 /*texto blanco*/
 a, .fa{
 	color: #fff;
